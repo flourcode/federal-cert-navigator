@@ -1,55 +1,55 @@
 WorkloadType,SecurityLevel,CloudProvider,RequiredCertifications,TechStackRecommendation,CSPWebsite
 Unclassified Web App,Low,AWS,FedRAMP Low,AWS GovCloud + S3 (Object Lock) + EC2 + IAM + CloudTrail,https://aws.amazon.com/govcloud-us/
-Unclassified Web App,Low,Azure,FedRAMP Low,Azure Gov + Blob Storage + App Service + Azure Policy + Monitor,https://azure.microsoft.com/en-us/solutions/government/
+Unclassified Web App,Low,Azure,FedRAMP Low,Azure Gov + Blob Storage + App Service + Azure Policy + Monitor,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Unclassified Web App,Low,GCP,FedRAMP Low,GCP Assured Workloads + Cloud Storage + Cloud Run + IAM + Shield,https://cloud.google.com/assured-workloads
 Unclassified Web App,Moderate,AWS,FedRAMP Moderate,AWS GovCloud + S3 (Object Lock) + EC2 + IAM + CloudTrail + AWS Config + GuardDuty,https://aws.amazon.com/govcloud-us/
-Unclassified Web App,Moderate,Azure,FedRAMP Moderate,Azure Gov + Blob Storage + App Service + Azure Policy + Sentinel + Defender,https://azure.microsoft.com/en-us/solutions/government/
+Unclassified Web App,Moderate,Azure,FedRAMP Moderate,Azure Gov + Blob Storage + App Service + Azure Policy + Sentinel + Defender,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Unclassified Web App,Moderate,GCP,FedRAMP Moderate,GCP Assured Workloads + Cloud Storage + Cloud Run + IAM + Shield + Security Command Center,https://cloud.google.com/assured-workloads
 Unclassified Web App,High,AWS,FedRAMP High,AWS GovCloud + S3 (WORM) + EC2 Dedicated + VPC Endpoints + Shield Advanced + AWS CloudHSM,https://aws.amazon.com/compliance/fedramp-faqs/
-Unclassified Web App,High,Azure,FedRAMP High,Azure Gov + Storage (WORM) + Dedicated Host + VNet Integration + DDOS Protection + Key Vault,https://azure.microsoft.com/en-us/solutions/government/
+Unclassified Web App,High,Azure,FedRAMP High,Azure Gov + Storage (WORM) + Dedicated Host + VNet Integration + DDOS Protection + Key Vault,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Unclassified Web App,High,GCP,FedRAMP High,GCP Assured Workloads IL4 + Cloud Storage + GKE + VPC Service Controls + Cloud KMS,https://cloud.google.com/assured-workloads
 Internal HR System,Low,AWS,FedRAMP Low,AWS GovCloud + RDS + EC2 + IAM + CloudTrail,https://aws.amazon.com/govcloud-us/
-Internal HR System,Low,Azure,FedRAMP Low,Azure Gov + SQL Database + App Service + Azure Policy + Monitor,https://azure.microsoft.com/en-us/solutions/government/
+Internal HR System,Low,Azure,FedRAMP Low,Azure Gov + SQL Database + App Service + Azure Policy + Monitor,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Internal HR System,Low,GCP,FedRAMP Low,GCP Assured Workloads + Cloud SQL + App Engine + IAM + Shield,https://cloud.google.com/assured-workloads
 Internal HR System,Moderate,AWS,FedRAMP Moderate,AWS GovCloud + RDS (Encrypted) + EC2 + IAM + CloudTrail + AWS Config + GuardDuty,https://aws.amazon.com/govcloud-us/
-Internal HR System,Moderate,Azure,FedRAMP Moderate,Azure Gov + SQL Database + App Service + Azure Policy + Sentinel + Defender,https://azure.microsoft.com/en-us/solutions/government/
+Internal HR System,Moderate,Azure,FedRAMP Moderate,Azure Gov + SQL Database + App Service + Azure Policy + Sentinel + Defender,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Internal HR System,Moderate,GCP,FedRAMP Moderate,GCP Assured Workloads + Cloud SQL + App Engine + IAM + Shield + Security Command Center,https://cloud.google.com/assured-workloads
 Internal HR System,High,AWS,FedRAMP High,AWS GovCloud + RDS (Encrypted) + EC2 Dedicated + VPC Endpoints + Shield Advanced + AWS CloudHSM,https://aws.amazon.com/compliance/fedramp-faqs/
-Internal HR System,High,Azure,FedRAMP High,Azure Gov + SQL Database (TDE) + Dedicated Host + VNet Integration + DDOS Protection + Key Vault,https://azure.microsoft.com/en-us/solutions/government/
+Internal HR System,High,Azure,FedRAMP High,Azure Gov + SQL Database (TDE) + Dedicated Host + VNet Integration + DDOS Protection + Key Vault,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Internal HR System,High,GCP,FedRAMP High,GCP Assured Workloads IL4 + Cloud SQL (CMEK) + GKE + VPC Service Controls + Cloud KMS,https://cloud.google.com/assured-workloads
 Mission System,Low,AWS,FedRAMP Low,AWS GovCloud + ECS + DynamoDB + IAM + CloudTrail,https://aws.amazon.com/govcloud-us/
-Mission System,Low,Azure,FedRAMP Low,Azure Gov + Container Instances + Cosmos DB + Azure Policy + Monitor,https://azure.microsoft.com/en-us/solutions/government/
+Mission System,Low,Azure,FedRAMP Low,Azure Gov + Container Instances + Cosmos DB + Azure Policy + Monitor,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Mission System,Low,GCP,FedRAMP Low,GCP Assured Workloads + GKE + Firestore + IAM + Shield,https://cloud.google.com/assured-workloads
 Mission System,Moderate,AWS,FedRAMP Moderate,AWS GovCloud + ECS + DynamoDB + IAM + CloudTrail + AWS Config + GuardDuty,https://aws.amazon.com/govcloud-us/
-Mission System,Moderate,Azure,FedRAMP Moderate,Azure Gov + Container Instances + Cosmos DB + Azure Policy + Sentinel + Defender,https://azure.microsoft.com/en-us/solutions/government/
+Mission System,Moderate,Azure,FedRAMP Moderate,Azure Gov + Container Instances + Cosmos DB + Azure Policy + Sentinel + Defender,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Mission System,Moderate,GCP,FedRAMP Moderate,GCP Assured Workloads + GKE + Firestore + IAM + Shield + Security Command Center,https://cloud.google.com/assured-workloads
 Mission System,High,AWS,FedRAMP High; DoD SRG IL5,AWS GovCloud + S3 (WORM) + EBS Encryption + EC2 Dedicated + VPC Endpoints + AWS Shield Advanced + AWS CloudHSM,https://aws.amazon.com/compliance/dod/
-Mission System,High,Azure,FedRAMP High; DoD SRG IL5,Azure Gov + Storage (WORM) + Dedicated Host + VNet Integration + ExpressRoute + Azure Key Vault + Azure DDOS Protection,https://azure.microsoft.com/en-us/solutions/government/
+Mission System,High,Azure,FedRAMP High; DoD SRG IL5,Azure Gov + Storage (WORM) + Dedicated Host + VNet Integration + ExpressRoute + Azure Key Vault + Azure DDOS Protection,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Mission System,High,GCP,FedRAMP High; DoD SRG IL4,GCP Assured Workloads IL4 + Cloud Storage + GKE + Dedicated Interconnect + VPC Service Controls + Cloud KMS,https://cloud.google.com/assured-workloads
 Healthcare Records Platform,Low,AWS,FedRAMP Low; HIPAA,AWS GovCloud + RDS (Encrypted) + EC2 + IAM + CloudTrail,https://aws.amazon.com/compliance/hipaa-compliance/
-Healthcare Records Platform,Low,Azure,FedRAMP Low; HIPAA,Azure Gov + SQL Database (TDE) + App Service + Azure Policy + Monitor,https://azure.microsoft.com/en-us/solutions/government/
+Healthcare Records Platform,Low,Azure,FedRAMP Low; HIPAA,Azure Gov + SQL Database (TDE) + App Service + Azure Policy + Monitor,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Healthcare Records Platform,Low,GCP,FedRAMP Low; HIPAA,GCP Assured Workloads + Cloud SQL (CMEK) + App Engine + IAM + Shield,https://cloud.google.com/assured-workloads
 Healthcare Records Platform,Moderate,AWS,FedRAMP Moderate; HIPAA,AWS GovCloud + RDS (Encrypted) + EC2 + IAM + CloudTrail + AWS Config + GuardDuty + AWS Backup,https://aws.amazon.com/compliance/hipaa-compliance/
-Healthcare Records Platform,Moderate,Azure,FedRAMP Moderate; HIPAA,Azure Gov + SQL Database (TDE) + App Service + Azure Policy + Sentinel + Defender + Azure Backup,https://azure.microsoft.com/en-us/solutions/government/
+Healthcare Records Platform,Moderate,Azure,FedRAMP Moderate; HIPAA,Azure Gov + SQL Database (TDE) + App Service + Azure Policy + Sentinel + Defender + Azure Backup,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Healthcare Records Platform,Moderate,GCP,FedRAMP Moderate; HIPAA,GCP Assured Workloads + Cloud SQL (CMEK) + App Engine + IAM + Shield + Security Command Center + Cloud Backup,https://cloud.google.com/assured-workloads
 Healthcare Records Platform,High,AWS,FedRAMP High; HIPAA,AWS GovCloud + S3 (WORM) + EBS Encryption + EC2 Dedicated + VPC Endpoints + AWS Shield Advanced + AWS CloudHSM + AWS Backup,https://aws.amazon.com/compliance/hipaa-compliance/
-Healthcare Records Platform,High,Azure,FedRAMP High; HIPAA,Azure Gov + Storage (WORM) + Dedicated Host + VNet Integration + ExpressRoute + Azure Key Vault + Azure DDOS Protection + Azure Backup,https://azure.microsoft.com/en-us/solutions/government/
+Healthcare Records Platform,High,Azure,FedRAMP High; HIPAA,Azure Gov + Storage (WORM) + Dedicated Host + VNet Integration + ExpressRoute + Azure Key Vault + Azure DDOS Protection + Azure Backup,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Healthcare Records Platform,High,GCP,FedRAMP High; HIPAA,GCP Assured Workloads IL4 + Cloud Storage + GKE + Dedicated Interconnect + VPC Service Controls + Cloud KMS + Cloud Backup,https://cloud.google.com/assured-workloads
 Data Analytics Platform,Low,AWS,FedRAMP Low,AWS GovCloud + EMR + S3 + Athena + QuickSight + IAM,https://aws.amazon.com/govcloud-us/
-Data Analytics Platform,Low,Azure,FedRAMP Low,Azure Gov + HDInsight + Data Lake Storage + Synapse Analytics + Power BI + Azure AD,https://azure.microsoft.com/en-us/solutions/government/
+Data Analytics Platform,Low,Azure,FedRAMP Low,Azure Gov + HDInsight + Data Lake Storage + Synapse Analytics + Power BI + Azure AD,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Data Analytics Platform,Low,GCP,FedRAMP Low,GCP Assured Workloads + Dataproc + Cloud Storage + BigQuery + Looker + Cloud IAM,https://cloud.google.com/assured-workloads
 Data Analytics Platform,Moderate,AWS,FedRAMP Moderate,AWS GovCloud + EMR + Glue + Athena + QuickSight + KMS + VPC Endpoints,https://aws.amazon.com/govcloud-us/
-Data Analytics Platform,Moderate,Azure,FedRAMP Moderate,Azure Gov + Synapse Analytics + Data Factory + Power BI + Key Vault + VNet Service Endpoints,https://azure.microsoft.com/en-us/solutions/government/
+Data Analytics Platform,Moderate,Azure,FedRAMP Moderate,Azure Gov + Synapse Analytics + Data Factory + Power BI + Key Vault + VNet Service Endpoints,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Data Analytics Platform,Moderate,GCP,FedRAMP Moderate,GCP Assured Workloads + BigQuery + Dataflow + Looker + Cloud KMS + VPC Service Controls,https://cloud.google.com/assured-workloads
 Data Analytics Platform,High,AWS,FedRAMP High,AWS GovCloud + EMR + Glue + Athena + QuickSight + KMS + VPC Endpoints + CloudHSM,https://aws.amazon.com/compliance/fedramp-faqs/
-Data Analytics Platform,High,Azure,FedRAMP High,Azure Gov + Synapse Analytics + Data Factory + Power BI + Key Vault + VNet Service Endpoints + Dedicated Hosts,https://azure.microsoft.com/en-us/solutions/government/
+Data Analytics Platform,High,Azure,FedRAMP High,Azure Gov + Synapse Analytics + Data Factory + Power BI + Key Vault + VNet Service Endpoints + Dedicated Hosts,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Data Analytics Platform,High,GCP,FedRAMP High,GCP Assured Workloads IL4 + BigQuery + Dataflow + Looker + Cloud KMS + VPC Service Controls + Dedicated Interconnect,https://cloud.google.com/assured-workloads
 Document Management System,Low,AWS,FedRAMP Low,AWS GovCloud + S3 + Lambda + DynamoDB + Cognito + CloudFront,https://aws.amazon.com/govcloud-us/
-Document Management System,Low,Azure,FedRAMP Low,Azure Gov + Blob Storage + Functions + Cosmos DB + B2C + CDN,https://azure.microsoft.com/en-us/solutions/government/
+Document Management System,Low,Azure,FedRAMP Low,Azure Gov + Blob Storage + Functions + Cosmos DB + B2C + CDN,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Document Management System,Low,GCP,FedRAMP Low,GCP Assured Workloads + Cloud Storage + Cloud Functions + Firestore + Identity Platform + Cloud CDN,https://cloud.google.com/assured-workloads
 Document Management System,Moderate,AWS,FedRAMP Moderate,AWS GovCloud + S3 + Lambda + DynamoDB + Cognito + CloudFront + KMS + AWS Config,https://aws.amazon.com/govcloud-us/
-Document Management System,Moderate,Azure,FedRAMP Moderate,Azure Gov + Blob Storage + Functions + Cosmos DB + B2C + CDN + Key Vault + Azure Policy,https://azure.microsoft.com/en-us/solutions/government/
+Document Management System,Moderate,Azure,FedRAMP Moderate,Azure Gov + Blob Storage + Functions + Cosmos DB + B2C + CDN + Key Vault + Azure Policy,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Document Management System,Moderate,GCP,FedRAMP Moderate,GCP Assured Workloads + Cloud Storage + Cloud Functions + Firestore + Identity Platform + Cloud CDN + Cloud KMS + Security Command Center,https://cloud.google.com/assured-workloads
 Document Management System,High,AWS,FedRAMP High,AWS GovCloud + S3 (WORM) + Lambda + DynamoDB + Cognito + CloudFront + KMS + AWS Config + CloudHSM + Shield Advanced,https://aws.amazon.com/compliance/fedramp-faqs/
-Document Management System,High,Azure,FedRAMP High,Azure Gov + Blob Storage (WORM) + Functions + Cosmos DB + B2C + CDN + Key Vault + Azure Policy + Dedicated Hosts + DDOS Protection,https://azure.microsoft.com/en-us/solutions/government/
+Document Management System,High,Azure,FedRAMP High,Azure Gov + Blob Storage (WORM) + Functions + Cosmos DB + B2C + CDN + Key Vault + Azure Policy + Dedicated Hosts + DDOS Protection,https://azure.microsoft.com/en-us/explore/global-infrastructure/government/
 Document Management System,High,GCP,FedRAMP High,GCP Assured Workloads IL4 + Cloud Storage + Cloud Functions + Firestore + Identity Platform + Cloud CDN + Cloud KMS + Security Command Center + VPC Service Controls,https://cloud.google.com/assured-workloads
