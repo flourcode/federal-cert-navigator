@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Federal Certification Navigator for CTOs</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+  <!-- Text-based header instead of banner image -->
+  <header>
+    <div class="header-content">
+      <h1 class="title">Federal Certification Navigator</h1>
+      <p class="subtitle">Streamlined compliance decision support for federal cloud migrations</p>
+    </div>
+  </header>
+  
+  <div class="container">
+    <div class="card info-card">
+      <h2>For Federal Partner CTOs</h2>
+      <p>This streamlined tool helps you quickly determine the appropriate cloud certifications and compliant technical stack based on your specific workload requirements. Make informed architectural decisions with confidence.</p>
+    </div>
+    
+    <div class="two-col">
+      <div class="card">
+        <h2>Find Your Compliant Architecture</h2>
+        
+        <div class="form-group">
+          <label for="workload">Workload Type:</label>
+          <select id="workload"></select>
+        </div>
+        
+        <div class="form-group">
+          <label for="security">Security Level:</label>
+          <select id="security"></select>
+        </div>
+        
+        <div class="form-group">
+          <label for="provider">Cloud Service Provider:</label>
+          <select id="provider"></select>
+        </div>
+        
+        <button onclick="findCert()">Generate Requirements</button>
+      </div>
+      
+      <div class="card">
+        <h2>Compliance Requirements Legend</h2>
+        <div class="legend">
+          <div class="legend-item">
+            <div class="legend-badge low"></div>
+            <span>FedRAMP Low</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-badge moderate"></div>
+            <span>FedRAMP Moderate</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-badge high"></div>
+            <span>FedRAMP High / IL4-6</span>
+          </div>
+        </div>
+        
+        <p><strong>Impact Levels:</strong></p>
+        <ul>
+          <li><strong>Low:</strong> Public-facing, non-sensitive unclassified data</li>
+          <li><strong>Moderate:</strong> CUI, FOUO, sensitive unclassified data</li>
+          <li><strong>High:</strong> Critical mission systems, sensitive health data, IL4-6</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div id="result" class="card" style="display:none;">
+      <h2>Your Compliance Requirements</h2>
+      <div id="result-content"></div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="footer-content">
+      <p>Federal Certification Navigator • For official use by federal agencies and partners • Last updated: March 2025</p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
